@@ -3,6 +3,7 @@
 ## Overview
 
 This project is a Python-based School Management System designed to handle various administrative tasks within a school. It interacts with a MySQL database to manage records for students, teachers, attendance, fees, and salaries. The system provides a text-based interface for performing operations such as adding, removing, and updating student and teacher details, recording attendance, processing fees, and managing salary payments.
+(This was made in 2021)
 
 ## Features
 
@@ -25,6 +26,8 @@ This project is a Python-based School Management System designed to handle vario
 3. **Running the System**:
    - Run the script using Python: `python school_management_system.py`
    - Follow the on-screen prompts to interact with the system.
+  
+*This was made in 2021 so it might have some version specific issues.
 
 ## Code Structure
 
