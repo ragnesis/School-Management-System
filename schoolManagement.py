@@ -2,22 +2,16 @@ import mys-ql.connector as my
 connect = my.connect(host = 'localhost', user =' root ', passwd = 'mayank' , db =
 'myschool')
 cursor=connect.cursor()
+
 #a='create database MySchool'
 #cursor.execute (a)
-#cursor.execute (‘create table student (NAME VARCHAR (50) NOT NULL, CLASS INT NOT NULL,
-ADNO INT PRIMARY KEY, ADDRESS VARCHAR (50) NOT NULL, PHONE VARCHAR (50) NOT NULL)’)
-#cursor.execute (‘create table teachers (NAME VARCHAR (50) NOT NULL, POST VARCHAR (30)
-NOT NULL, SALARY VARCHAR (10) NOT NULL, ADDRESS VARCHAR (50) NOT NULL, PHONE VARCHAR (50)
-NOT NULL, ACNO VARCHAR (10) PRIMARY KEY)’)
-#cursor.execute (‘create table cattendence (DATE VARCHAR (30) NOT NULL, CLASS INT NOT
-NULL, ABSENT VARCHAR (200) NOT NULL)’)
-#cursor.execute (‘create table tattendence (DATE VARCHAR (30) NOT NULL, ABSENT VARCHAR
-(200) NOT NULL)’)
-#cursor.execute (‘create table fees (NAME VARCHAR (50) NOT NULL, CLASS INT NOT NULL, ADNO
-INT PRIMARY KEY, MONTH VARCHAR (20) NOT NULL, FEE VARCHAR (30) NOT NULL, DATE VARCHAR
-(30) NOT NULL, ISPAID VARCHAR (5) NOT NULL)’)
-#cursor.execute (‘create table salary (NAME VARCHAR (30) NOT NULL, MONTH VARCHAR (20) NOT
-NULL, PAID VARCHAR (30) NOT NULL, ACNO VARCHAR (10))’)
+#cursor.execute (‘create table student (NAME VARCHAR (50) NOT NULL, CLASS INT NOT NULL,ADNO INT PRIMARY KEY, ADDRESS VARCHAR (50) NOT NULL, PHONE VARCHAR (50) NOT NULL)’)
+#cursor.execute (‘create table teachers (NAME VARCHAR (50) NOT NULL, POST VARCHAR (30)NOT NULL, SALARY VARCHAR (10) NOT NULL, ADDRESS VARCHAR (50) NOT NULL, PHONE VARCHAR (50)NOT NULL, ACNO VARCHAR (10) PRIMARY KEY)’)
+#cursor.execute (‘create table cattendence (DATE VARCHAR (30) NOT NULL, CLASS INT NOTNULL, ABSENT VARCHAR (200) NOT NULL)’)
+#cursor.execute (‘create table tattendence (DATE VARCHAR (30) NOT NULL, ABSENT VARCHAR(200) NOT NULL)’)
+#cursor.execute (‘create table fees (NAME VARCHAR (50) NOT NULL, CLASS INT NOT NULL, ADNOINT PRIMARY KEY, MONTH VARCHAR (20) NOT NULL, FEE VARCHAR (30) NOT NULL, DATE VARCHAR(30) NOT NULL, ISPAID VARCHAR (5) NOT NULL)’)
+#cursor.execute (‘create table salary (NAME VARCHAR (30) NOT NULL, MONTH VARCHAR (20) NOTNULL, PAID VARCHAR (30) NOT NULL, ACNO VARCHAR (10))’)
+
 def ast():
  print('PLEASE ENTER DETAILS OF THE STUDENT FOR ADDMISSION')
  n=input("Student's name :")
